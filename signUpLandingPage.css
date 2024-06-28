@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(206.61deg 58.49% 41.57%);    
+}
+.container{
+    background-color:#ffffff;
+    margin: 150px auto;
+    width: 40%;
+    border-radius: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+.image_Logo{
+    margin: 0 auto;
+    
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#Sign_Up{
+  font-family: "Playwrite NL", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  font-size:30px;
+}
+
+.info{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Playwrite NL", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: hsl(206.61deg 58.49% 41.57%); 
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.google button, input {
+display: block;
+/* width: 320px; */
+
+}
+
+#Google{
+padding: 10px 20px;
+background-color: hsl(206.61deg 58.49% 41.57%);
+color: white;
+border: none;
+cursor: pointer;
+/* text-align: center;  */
+text-decoration: none; 
+border-radius: 20px;
+margin-top: 10px;
+font-size: 16px;
+display: block;
+}
+
+
+#formButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 4px;
+    display: none;
+    
+}
+
+#inputEmail {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+#inputEmail:hover {
+    border: 2px solid  hsl(206.61deg 58.49% 41.57%);
+      
+}
+
+
+#inputEmail:focus {
+    border: 2px solid  hsl(206.61deg 58.49% 41.57%);
+    
+    
+}
+
+
+#formButton #submit {
+   
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 7px 10px; 
+        background-color: hsl(206.61deg 58.49% 41.57%);
+        color: white;
+        cursor: pointer;
+        /* border-top-right-radius: 4px;  */
+        width: 20%;
+        height: 32px;
+        border-radius: 40px;
+        border: 1px solid  hsl(206.61deg 58.49% 41.57%);    
+}
+
+
+#submit:hover {
+    background-color: #0056b3; /* Darker color on hover */
+ }
+
+ .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding:30px;
+    color: hsl(206.61deg 58.49% 41.57%);  
+    /* align-items: center; */
+    /* justify-c16ntent: center; */
+    /* margin: 0 auto; */
+ }
+
+ .fa-instagram{
+    color: #FD1D1D;
+ }
+
+ .fa-x{
+    color: #000000;
+ }
+
+ 
+
+
+

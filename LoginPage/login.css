@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(206.61deg 58.49% 41.57%);    
+}
+.container{
+    background-color:#ffffff;
+    margin: 150px auto;
+    width: 40%;
+    border-radius: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+.cover{
+    height: 200px;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 86px 0 0 0;
+    background-color:hsl(206.61deg 58.49% 41.57%);
+    border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    50%  {color: white;}
+
+    100% {color: green;}
+  }
+#Sign_Up{
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    font-size:30px;
+  }
+.form_Container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+    
+    
+}  
+
+.name_Container{
+    position: relative;
+   
+
+}
+.append i, .fa-eye-slash{
+
+     position: absolute;
+    font-size: 24px; 
+    padding: 40px 10px;
+    color:hsl(206.61deg 58.49% 41.57%) ;
+
+
+}
+
+input{
+   
+    width: 100%;
+    font-size: 20px; 
+
+    padding: 10px 40px;
+    margin-top: 30px;
+    border-radius:10px;
+    
+}
+
+
+#submit{
+    background-color:hsl(206.61deg 58.49% 41.57%);
+    border: none;
+}
+#submit:hover{
+color: #ccc;
+}
+
+.grid{
+    display: flex;
+    /* width:30%; */
+    padding-left: 3px;
+    justify-content: space-around;
+   
+}
+.but{
+    width: 40%;
+  font-size:15px; 
+}
+.but:hover{
+   
+    background-color:hsl(206.61deg 58.49% 41.57%);
+    color: #ccc;
+}
+
+.my-element{
+    animation: heartBeat; 
+    animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color:hsl(206.61deg 58.49% 41.57%);
+  color:#ccc;
+  border: none;
+  width: 40%;
+  font-size:15px;
+  
+
+}
