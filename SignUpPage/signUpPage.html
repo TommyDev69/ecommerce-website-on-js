@@ -1,122 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <link rel="stylesheet" href="/SignUpPage/signUp.css">
-    <title>Document</title>
-</head>
+        <link rel="stylesheet" href="/SignUpPage/signUp.css">
+        <title>Document</title>
+    </head>
 
-<body>
-    <div class="container">
-<div class="cover">
-<div class="shape"></div>
-    <div id="Sign_Up">Sign Up</div>
-</div>
-
-        <form action="">
-            <div class="form_Container">
-                <div class="name_comtainer">
-                    <div class="append">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" id="name"  placeholder="Enter you full name">
-                    </div>
-
-                    <div class="append">
-                        <i class="fa-solid fa-envelope"></i>
-                        <input type="text" id="email"  placeholder="Enter you email">
-                    </div>
-
-                    <div class="gender">
-                        <input type="radio" id="radio1" name="gender" value="male"> 
-                        <label for="">Male</label>
-
-                        <input type="radio" id="radio2" name="gender" value="female">
-                        <label for="">Female</label>
-
-                        <input type="radio" id="radio3" name="gender" value="other">
-                        <label for="">Others</label>
-
-
-
-
-                    </div>
-
-                    <select  id="namee" onchange="status()">
-                        <option value="option0"  > Choose your Role</option>
-                        <option value="option1">Admin</option>
-                        <option value="option2" >manager</option>
-                        <option value="option3" >attendee</option>
-
-
-                    </select>
-                    <div  class="manager" id="opt2">
-                        <div class="append">
-                            <i class="fa-solid fa-image"></i>
-                            <input type="file" id="mobile"  style="border: 2px solid #000000;">
-                        </div>
-
-                        <div class="append">
-                            <i class="fa-solid fa-phone"></i>
-                            <input type="number" id="image"  placeholder="+234 - 000 - 0000 - 0">
-                        </div>
-
-                        <div class="append">
-                            <i class="fa-solid fa-address-book"></i>
-                            <input type="text" id="address" placeholder="enter your home address">
-                        </div>  
-                    </div>
-
-                    <div class="attendee" id="opt3">
-                        <div class="append">
-                            <i class="fa-solid fa-image"></i>
-                            <input type="file" id="names"  style="border: 2px solid #000000;">
-                        </div>
-
-                        <div class="append">
-                            <i class="fa-solid fa-address-book"></i>
-                            <input type="text" id="attendee_addr" placeholder="enter your home address">
-                        </div>
-
-                        <div class="append">
-                            <i class="fa-solid fa-house"></i>
-                            <input type="text" id="attendee_gaurantor" placeholder="enter your home gaurantor">
-                        </div>
-                        <div class="append">
-                            <i class="fa-solid fa-phone"></i>
-                            <input type="number" id="attendee_phone"  placeholder="+234 - 000 - 0000 - 0">
-                        </div>
-    
-                        
-                    </div>
-
-                    <div class="append">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="text" id="name"  placeholder="Enter your password">
-                    </div>
-                    <div class="append">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="text" id="name"  placeholder="Enter your comfirmed password">
-                    </div>
-
-                    <input type="button" id="submit" name="" value="Submit">
-
+    <body>
+        <div class="container">
+            <div class="cover">
+                <div class="shape"></div>
+                <div id="Sign_Up">Sign Up</div>
             </div>
-        </form>
 
+            <form action>
+                <div class="form_Container">
+                    <div class="name_comtainer">
+                        <div class="append">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name"
+                                placeholder="Enter you full name">
+                        </div>
 
+                        <div class="append">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" id="email"
+                                placeholder="Enter you email">
+                        </div>
 
+                        <div class="gender">
+                            <input type="radio" id="radio1" name="gender"
+                                value="male">
+                            <label for>Male</label>
 
-    </div>
-<script src="signUpPage.js"></script>
+                            <input type="radio" id="radio2" name="gender"
+                                value="female">
+                            <label for>Female</label>
 
-    </div>
-</body>
+                            <input type="radio" id="radio3" name="gender"
+                                value="other">
+                            <label for>Others</label>
 
-</html>
+                        </div>
+
+                        <select id="namee" onchange="status()">
+                            <option value="option0"> Choose your Role</option>
+                            <option value="option1">Admin</option>
+                            <option value="option2">manager</option>
+                            <option value="option3">attendee</option>
+
+                        </select>
+                        <div class="manager" id="opt2">
+                            <div class="append">
+                                <i class="fa-solid fa-image"></i>
+                                <input type="file" id="mobile"
+                                    style="border: 2px solid #000000;">
+                            </div>
+
+                            <div class="append">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="number" id="image"
+                                    placeholder="+234 - 000 - 0000 - 0">
+                            </div>
+
+                            <div class="append">
+                                <i class="fa-solid fa-address-book"></i>
+                                <input type="text" id="address"
+                                    placeholder="enter your home address">
+                            </div>
+                        </div>
+
+                        <div class="attendee" id="opt3">
+                            <div class="append">
+                                <i class="fa-solid fa-image"></i>
+                                <input type="file" id="names"
+                                    style="border: 2px solid #000000;">
+                            </div>
+
+                            <div class="append">
+                                <i class="fa-solid fa-address-book"></i>
+                                <input type="text" id="attendee_addr"
+                                    placeholder="enter your home address">
+                            </div>
+
+                            <div class="append">
+                                <i class="fa-solid fa-house"></i>
+                                <input type="text" id="attendee_gaurantor"
+                                    placeholder="enter your home gaurantor">
+                            </div>
+                            <div class="append">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="number" id="attendee_phone"
+                                    placeholder="+234 - 000 - 0000 - 0">
+                            </div>
+
+                        </div>
+
+                        <div class="append">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="text" id="pass"
+                                placeholder="Enter your password">
+                        </div>
+                        <div class="append">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="text" id="cpassword "
+                                placeholder="Enter your comfirmed password">
+                        </div>
+
+                        <input type="button" id="submit" name value="Submit">
+
+                    </div>
+                </div>
+            </form>
+
+            <script src="signUpPage.js"></script>
+
+        </body>
+
+    </html>
