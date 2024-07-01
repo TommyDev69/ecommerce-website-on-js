@@ -1,4 +1,4 @@
-document.getElementById('image_header').src = './img/dolphine_Logo.png';
+document.getElementById('image_header').src = '/img/dolphine_Logo.png';
 document.getElementById('Sign_Up').innerText ='Sign Up'
 // document.getElementById('Sign_Up').innerText ='Sign Up'
 
