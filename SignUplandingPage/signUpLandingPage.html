@@ -29,24 +29,25 @@
                     <div id="formButton" >
 
                         <input type="email" id="inputEmail" placeholder="enter your google mail"> 
-                        <button type="button" id="submit"><i class="fa-solid fa-right-to-bracket"></i></button>
+                        <button type="button" id="submit" onclick="logGoogle()"><i class="fa-solid fa-right-to-bracket"></i></button>
+                        <p id="errorMsg"></p>
                     </div>
                 </form>
-                <button type="button" id="Google"> <i class="fa-solid fa-right-to-bracket">&nbsp;</i>SignIn to your accout </i> </button>
+                <button type="button" id="Google" onclick="loginAcct()"> <i class="fa-solid fa-right-to-bracket">&nbsp;</i>SignIn to your accout </i> </button>
 
             </div>
             <div class="icon">
 
-            <i class="fa-brands fa-facebook"></i> &nbsp; &nbsp; 
-            <i class="fa-brands fa-instagram"></i> &nbsp; &nbsp; 
-            <i class="fa-brands fa-x"></i>
-
-
+            <i  onclick=facebook() class= "fa-brands fa-facebook"></i> &nbsp; &nbsp; 
+            <i  onclick=instagram() class="fa-brands fa-instagram"></i> &nbsp; &nbsp; 
+            <i  onclick=twitter() class="fa-brands fa-x"></i>
 
             </div>
             
 
         </div>
+
+        
    <script src="signUpLandingPage.js"></script>
 </body>
 </html>

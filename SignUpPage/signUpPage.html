@@ -12,7 +12,7 @@
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-        <link rel="stylesheet" href="/SignUpPage/signUp.css">
+        <link rel="stylesheet" href="./signUp.css">
         <title>Document</title>
     </head>
 
@@ -30,12 +30,16 @@
                             <i class="fa-solid fa-user"></i>
                             <input type="text" id="name"
                                 placeholder="Enter you full name">
+                                <p class="user" id="userName"></p>
+                            
                         </div>
 
                         <div class="append">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="text" id="email"
+                            <input type="text" id="emailInput"
                                 placeholder="Enter you email">
+                                <p class="user" id="email"></p>
+
                         </div>
 
                         <div class="gender">
@@ -110,18 +114,34 @@
                             <i class="fa-solid fa-lock"></i>
                             <input type="text" id="pass"
                                 placeholder="Enter your password">
+                                <p id="passwordMsg"></p>
                         </div>
+                        <!-- <i class="fa-solid fa-check" id="fontAwesome"></i> -->
+
                         <div class="append">
                             <i class="fa-solid fa-lock"></i>
                             <input type="text" id="cpassword "
                                 placeholder="Enter your comfirmed password">
+                                
                         </div>
+                        <input type="checkbox" id="checker">
 
-                        <input type="button" id="submit" name value="Submit">
+                        <input type="button" id="submbit" onclick="dataSubmit()" value="Submit">
 
                     </div>
                 </div>
             </form>
+
+            <h2>Select Your Gender</h2>
+  
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+    <span id="genderError" class="error"></span><br>
+    <button type="submit" onclick="validateForm()">Submit</button>
 
             <script src="signUpPage.js"></script>
 

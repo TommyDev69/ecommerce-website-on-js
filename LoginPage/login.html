@@ -11,11 +11,10 @@
             rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-            <link
+        <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-          />
-        <link rel="stylesheet" href="/LoginPage/login.css">
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="./login.css">
         <title>Document</title>
     </head>
 
@@ -28,31 +27,32 @@
 
             <form action>
                 <div class="form_Container">
-                    <div class="name_comtainer">
+                    <div class="name_container">
                         <div class="append">
                             <i class="fa-solid fa-user"></i>
-                            <input type="email" id="name"
-                                placeholder="Enter you email">
+                            <input type="email" id="name" placeholder="Enter you email">
                         </div>
 
                         <div class="append">
                             <i class="fa-solid fa-eye-slash" id="passImage" onclick="myPassword()"></i>
 
-                            <input type="password" id="pass"
-                                placeholder="Enter your password">
+                            <input type="password" id="pass" placeholder="Enter your password">
                         </div>
 
                         <div class="grid">
 
-                            <input type="button" id="signup" name class="my-element"
-                                value="SignUp">
-                            <input type="button" id="login" class="but" name
-                                value="Submit">
+                            <input type="button" id="signup" class="my-element" value="SignUp">
+                            <input type="button" id="login" class="but" value="Submit">
                         </div>
-
-                    </div>
                 </form>
 
+            </div>
+
+
+            <div class="phone" onclick="startRinging()">
+                <div class="screen"></div>
+                <div class="body"></div>
+                <div class="receiver"></div>
             </div>
             <script src="login.js"></script>
 

@@ -1,3 +1,4 @@
+
 function myPassword(){
     let pass = document.getElementById('pass')
     let eye = document.getElementById('passImage');
@@ -13,3 +14,16 @@ function myPassword(){
         eye.classList.add('fa-slash-eye')
     }
 }
+
+// const phone = document.querySelector('.phone');
+
+// function startRinging() {
+//   phone.classList.add('ringing');
+// }
+
+// function stopRinging() {
+//   phone.classList.remove('ringing');
+// }
+
+
+
